@@ -1,8 +1,3 @@
-/**
- * Welcome to the Stanford Karel IDE.
- * This is a free space for you to 
- * write any Karel program you want.
- **/
 function main () {
    
    prepareWorld();
@@ -15,7 +10,7 @@ function prepareWorld() {
    repeat(2) {
    move();
    }
-   repeat(5p) {
+   repeat(5) {
       putBeeper();
    }
    goBack();
