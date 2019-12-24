@@ -25,6 +25,8 @@ function nextStep2() {
       move();
       move();
       turnLeft();
+      if (frontIsClear()) {
       move();
+      }
    }
 }
